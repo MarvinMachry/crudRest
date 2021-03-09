@@ -1,0 +1,4 @@
+br\edu\ifsul\dao\PessoaDAO.class
+br\edu\ifsul\servicos\Config.class
+br\edu\ifsul\servicos\ServicoPessoa.class
+br\edu\ifsul\modelo\Pessoa.class
