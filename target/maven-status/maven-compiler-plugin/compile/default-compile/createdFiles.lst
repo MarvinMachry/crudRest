@@ -1,4 +1,11 @@
-br\edu\ifsul\dao\PessoaDAO.class
+br\edu\ifsul\dao\EnderecoDAO.class
 br\edu\ifsul\servicos\Config.class
+br\edu\ifsul\modelo\Endereco.class
+br\edu\ifsul\dao\PessoaDAO.class
 br\edu\ifsul\servicos\ServicoPessoa.class
+br\edu\ifsul\modelo\Veiculos.class
+br\edu\ifsul\dao\VeiculoDAO.class
 br\edu\ifsul\modelo\Pessoa.class
+br\edu\ifsul\servicos\CORSFilter.class
+br\edu\ifsul\servicos\ServicoVeiculo.class
+br\edu\ifsul\servicos\ServicoEndereco.class

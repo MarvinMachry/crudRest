@@ -5,6 +5,7 @@
  */
 package br.edu.ifsul.dao;
 
+import br.edu.ifsul.modelo.Endereco;
 import br.edu.ifsul.modelo.Pessoa;
 import java.io.Serializable;
 import java.util.List;
@@ -29,6 +30,9 @@ public class PessoaDAO implements Serializable{
 
     public Pessoa persist(Pessoa objeto) throws Exception{
         objeto.setId(null);
+        for (Endereco e : objeto.getEnderecos()) {
+            e.setPessoa(objeto);
+        }
         em.persist(objeto);
         return objeto;
     }
